@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>VintageShop.ru — Моя корзина</title>
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic|Playfair+Display:400,700&subset=latin,cyrillic">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+  <script src="script.js"></script>
+</head>
+<body>
+<nav class="mainNav">
+    <div class="mainNav__logo"><a href="index.html"><img src="logo_preview_rev_1.png" width="80%"></a></div>
+   <div class="mainNav__links">
+    <a href="index.html" class="mainNav__link">Главная</a>
+    <a href="catalog.html" class="mainNav__link">Каталог</a>
+    <a href="about.html" class="mainNav__link">О нас</a>
+    <a href="cart.html" class="mainNav__link">Корзина</a>
+   </div>
+
+</nav>
+<header class="mainHeading">  
+</header>
+
+<!-- ------------- -->
+<main>
+<div class="main_cart_category">
+  <section class="section-cart">
+    <header class="section-cart__header">
+        <div class="container1">
+            <h1 class="title-1">Корзина товаров</h1>
+        </div>
+    </header>
+    <div class="section-cart__body">
+        <div class="container1">
+
+            <section class="cart">
+                <header class="cart-header">
+                    <div class="cart-header__title">наименование</div>
+                    <div class="cart-header__count">количество</div>
+                    <div class="cart-header__cost">стоимость</div>
+                </header>
+
+                <section class="product">
+                    <div class="product__img"><img src="img14.png" width="70%" alt="man`s costume"></div>
+                    <div class="product__title">Мужской винтажный костюм 5 в 1.</div>
+                    <div class="product__count">
+                        <div class="count">
+                            <div class="count__box">
+                                <input type="number" class="count__input" min="1" max="100" value="1">
+                            </div>
+                            <div class="count__controls">
+                                <button type="button" class="count__up">
+                                    <img src="icon-up.svg" alt="Increase">
+                                </button>
+                                <button type="button" class="count__down">
+                                    <img src="icon-down.svg" alt="Decrease">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__price">12 600 руб.</div>
+                    <div class="product__controls">
+                        <button type="button">
+                            <img src="cross.svg" alt="Delete">
+                        </button>
+                    </div>
+                </section>
+
+                <section class="product">
+                    <div class="product__img"><img src="img17.png" width="70%" alt="women`s  costume"></div>
+                    <div class="product__title">Винтажный строгий женский костюм.</div>
+                    <div class="product__count">
+                        <div class="count">
+                            <div class="count__box">
+                                <input type="number" class="count__input" min="1" max="100" value="1">
+                            </div>
+                            <div class="count__controls">
+                                <button type="button" class="count__up">
+                                    <img src="icon-up.svg" alt="Increase">
+                                </button>
+                                <button type="button" class="count__down">
+                                    <img src="icon-down.svg" alt="Decrease">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__price">11 400 руб.</div>
+                    <div class="product__controls">
+                        <button type="button">
+                            <img src="cross.svg" alt="Delete">
+                        </button>
+                    </div>
+                </section>
+
+                <section class="product">
+                    <div class="product__img"><img src="img6.png" width="70%" alt="man`s costume"></div>
+                    <div class="product__title">Рубашка, брюки и жакет в винтажном стиле.</div>
+                    <div class="product__count">
+                        <div class="count">
+                            <div class="count__box">
+                                <input type="number" class="count__input" min="1" max="100" value="1">
+                            </div>
+                            <div class="count__controls">
+                                <button type="button" class="count__up">
+                                    <img src="icon-up.svg" alt="Increase">
+                                </button>
+                                <button type="button" class="count__down">
+                                    <img src="icon-down.svg" alt="Decrease">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__price">9 000 руб.</div>
+                    <div class="product__controls">
+                        <button type="button">
+                            <img src="cross.svg" alt="Delete">
+                        </button>
+                    </div>
+                </section>
+
+
+                <footer class="cart-footer">
+                    <div class="cart-footer__count">3 единицы</div>
+                    <div class="cart-footer__price">33 000 руб.</div>
+                </footer>
+            </section>
+
+        </div>
+    </div>
+</section>
+</div>
+</main>
+<!-- ------------- -->
+<footer class="footer">
+  <div class="footer__addr">
+    <h1 class="footer__logo">Vintage Shop</h1>
+        
+    <h2>Контакты</h2>
+    
+    <address>
+      Улица Политехническая, дом 77<br>
+          
+      <a class="footer__btn" href="mailto:example@gmail.com">Почта</a>
+    </address>
+  </div>
+  
+  <ul class="footer__nav">
+    <li class="nav__item">
+      <h2 class="nav__title">Медиа</h2>
+
+      <ul class="nav__ul">
+        <li>
+          <a href="#">Онлайн</a>
+        </li>
+
+        <li>
+          <a href="#">Печать</a>
+        </li>
+            
+        <li>
+          <a href="#">Реклама</a>
+        </li>
+      </ul>
+    </li>
+    
+    <li class="nav__item nav__item--extra">
+      <h2 class="nav__title">Технологии</h2>
+      
+      <ul class="nav__ul nav__ul--extra">
+        <li>
+          <a href="#">Разработка аппаратного обеспечения</a>
+        </li>
+        
+        <li>
+          <a href="#">Разработка программного обеспечения</a>
+        </li>
+        
+        <li>
+          <a href="#">Цифровые вывески</a>
+        </li>
+        
+        <li>
+          <a href="#">Автоматизация</a>
+        </li>
+        
+        <li>
+          <a href="#">Искусственный интеллект</a>
+        </li>
+        
+        <li>
+          <a href="#">IoT</a>
+        </li>
+      </ul>
+    </li>
+    
+    <li class="nav__item">
+      <h2 class="nav__title">Юридическая информация</h2>
+      
+      <ul class="nav__ul">
+        <li>
+          <a href="#">Политика конфиденциальности</a>
+        </li>
+        
+        <li>
+          <a href="#">Условия использования</a>
+        </li>
+        
+        <li>
+          <a href="#">Карта сайта</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  
+  <div class="legal">
+    <p>&copy; 2024 Саратов. Все права защищены.</p>
+    
+    
+  </div>
+</footer> 
+<script src='https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.js'></script><script  src="./script.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
